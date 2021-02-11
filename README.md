@@ -1,9 +1,9 @@
 # Interactive-Front-End-Development-Milestone-Project 
 
 
-## Title. 
+## The Matching Game. 
 
-
+This project is a simple matching game that consists of 6 pairs of cards to match. 
 
 ## UX 
 
