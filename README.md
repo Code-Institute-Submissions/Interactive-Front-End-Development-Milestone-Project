@@ -1,45 +1,137 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# User-Centric-Front-End-Development-Milestone-Project 
 
-Welcome USER_NAME,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+## Title. 
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
+## UX 
 
-A blue button should appear to click: *Make Public*,
 
-Another blue button should appear to click: *Open Browser*.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### User Stories
 
-A blue button should appear to click: *Make Public*,
 
-Another blue button should appear to click: *Open Browser*.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### An ideal viewer of this website would be someone that: 
 
-## Updates Since The Instructional Video
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+  
+### The viewer would be visiting my site if they are: 
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### The website can help to achieve that because: 
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+### Wireframes / Mock-ups Used: 
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+Here's the link to my first planning mock-up: [Mock-Up 1] 
 
---------
+Here's the link to my second planning mock-up: [Mock-Up 2]
 
-Happy coding!
+
+## Features 
+
+### Universal Website Features 
+
+#### Header: 
+
+
+
+#### Footer:  
+
+
+#### Newsletter: 
+
+  
+
+### The Home Page 
+
+#### Callout: 
+
+
+#### Gallery: 
+  
+
+### The "Who Are We?" Page 
+
+#### Google Maps: 
+
+
+
+### The "Make a Difference" Page
+
+#### Information Boxes: 
+
+
+
+### The "Donate" Page 
+
+#### Donation Form: 
+
+
+
+## Existing Features 
+
+
+## Features Left to Implement
+
+
+
+## Technologies Used 
+
+HTML / CSS.
+
+No languages were used in the coding of this project. It is pure HTML / CSS. No frameworks or libraries were used.  
+
+
+## Testing 
+
+
+### User Experience Testing: 
+
+#### Features on All Pages: 
+
+
+
+#### Logical Testing for The Newsletter: 
+
+
+
+#### Logical Testing for The Donation Form: 
+
+
+
+#### Further Testing 
+
+
+
+## Deployment 
+
+This project has been deployed via [GitHub Pages](https://github.com/KaganHuseyin/User-Centric-Front-End-Development-Milestone-Proeject).
+
+1. Log into GitHub.
+2. Select KaganHuseyin/User-Centric-Front-End-Development-Milestone-Project.
+3. Select settings.
+4. Scroll down the page and locate GitHub Pages.
+5. Change the source to the master branch.
+6. Once the page refreshes, the website has been deployed.
+7. From here, go back to the repository and select "Environment."
+8. Select view deployment and the website will open up in a new tab.
+
+## Credits 
+
+
+
+## Media Used: 
+
+Below are the links to the websites that I obtained all images from.  
+
+
+https://www.nytimes.com/2020/01/13/science/air-pollution-fires-genes.html?smid=tw-nytimesworld&smtyp=cur 
+
+## Acknowledgements 
+
+
