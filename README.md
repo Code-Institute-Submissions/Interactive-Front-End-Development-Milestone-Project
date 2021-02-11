@@ -1,4 +1,4 @@
-# User-Centric-Front-End-Development-Milestone-Project 
+# Interactive-Front-End-Development-Milestone-Project 
 
 
 ## Title. 
