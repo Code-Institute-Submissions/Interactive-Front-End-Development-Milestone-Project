@@ -94,17 +94,17 @@ Overall, it was very difficult for me as Javascript has been alluding me constan
 #### Header: 
 
 1. The Title
-  i. Check that the title doesn't overlap the header.
- ii. Check that the title resizes as the width changes for mobile or table use.
+    1. Check that the title doesn't overlap the header.
+    2. Check that the title resizes as the width changes for mobile or table use.
  
 #### Body (Prior to Game Being Started):
 
 1. Start Button
-  i. Upon hovering, the button should change colour.
- ii. If the mouse is moved away from the button, it should revert to it's original colour slowly.
-iii. Upon click, hide the button and the game field should appear.
- iv. Upon click, the timer should appear with the game field and begin.
-  v. Upon click, the click counter should appear with the game field.
+    1. Upon hovering, the button should change colour.
+    2. If the mouse is moved away from the button, it should revert to it's original colour slowly.
+    3. Upon click, hide the button and the game field should appear.
+    4. Upon click, the timer should appear with the game field and begin.
+    5. Upon click, the click counter should appear with the game field.
   
 #### Body (When The Game Has Started):
  
@@ -113,29 +113,28 @@ iii. Upon click, hide the button and the game field should appear.
     2. Check that the font size does not change to maintain readability.
 
 2. The Timer & Click Counter
-  1. Confirm that when resizing, the text does not breach their respective containers.
-  2. Make sure that the timer has begun, starting from 0.
-  3. Confirm that the click counter only increments when a card is clicked.
+    1. Confirm that when resizing, the text does not breach their respective containers.
+    2. Make sure that the timer has begun, starting from 0.
+    3. Confirm that the click counter only increments when a card is clicked.
  
 1. The Game Field
-  i. Check that when resizing the page, the cards do not breach the game field.
- ii. Check that the cards maintain their margin despite a change in device.
-iii. Confirm that the cards shape changes as the screen is resized or if on another device.
- iv. Confirm that the cards can still be clicked when on another device without any difficulty due to resizing.
-  v. Make sure the images resize and do not breach the card containers. 
+    1. Check that when resizing the page, the cards do not breach the game field.
+    2. Check that the cards maintain their margin despite a change in device.
+    3. Confirm that the cards shape changes as the screen is resized or if on another device.
+    4. Confirm that the cards can still be clicked when on another device without any difficulty due to resizing.
+    5. Make sure the images resize and do not breach the card containers. 
 
 #### Footer:
 
-
 1. Socials Bar
-  i. Check that the socials bar doesn't overlap the footer.
- ii. Check that the width and height resize correctly when changing the size of the window or to a different device.
+    1. Check that the socials bar doesn't overlap the footer.
+    2. Check that the width and height resize correctly when changing the size of the window or to a different device.
 
 2. The Socials Icons & Words
-  i. Check that when hovering on "Instagram", "Facebook" or "Twitter" that the colour changes.
- ii. Check that when removing the mouse, this colour change is reverted.
-iii. Confirm that when passing the width threshold (by changing device etc), remove the words and leave just the icons.
- iv. Confirm that when the words have been hidden, the icons have increased in size.
+    1. Check that when hovering on "Instagram", "Facebook" or "Twitter" that the colour changes.
+    2. Check that when removing the mouse, this colour change is reverted.
+    3. Confirm that when passing the width threshold (by changing device etc), remove the words and leave just the icons.
+    4. Confirm that when the words have been hidden, the icons have increased in size.
  
 #### Logical Testing for The Newsletter: 
 
