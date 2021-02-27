@@ -109,8 +109,8 @@ iii. Upon click, hide the button and the game field should appear.
 #### Body (When The Game Has Started):
  
 1. How to Play
-  1. Check that when resizing the page, the text does not overlap the parent container.
-  2. Check that the font size does not change to maintain readability.
+    1. Check that when resizing the page, the text does not overlap the parent container.
+    2. Check that the font size does not change to maintain readability.
 
 2. The Timer & Click Counter
   1. Confirm that when resizing, the text does not breach their respective containers.
@@ -125,6 +125,7 @@ iii. Confirm that the cards shape changes as the screen is resized or if on anot
   v. Make sure the images resize and do not breach the card containers. 
 
 #### Footer:
+
 
 1. Socials Bar
   i. Check that the socials bar doesn't overlap the footer.
