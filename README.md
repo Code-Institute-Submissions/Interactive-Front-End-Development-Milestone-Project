@@ -1,3 +1,4 @@
+
 # Interactive-Front-End-Development-Milestone-Project 
 
 
@@ -30,9 +31,11 @@ It is a simple memory matching game. It should be clear and concise, being easy 
 
 ### Wireframes / Mock-ups Used: 
 
-Here's the link to my first planning mock-up: [Mock-Up 1] 
+Here are the links to my Wireframes:
+* [Computer View Wireframe](https://user-images.githubusercontent.com/61510983/109387988-5fd7c500-78fc-11eb-930c-ad93c843c890.png)
+* [Mobile View Wireframe](https://user-images.githubusercontent.com/61510983/109387997-66fed300-78fc-11eb-9939-de3231009c3f.png)
+* [Tablet View Wireframe](https://user-images.githubusercontent.com/61510983/109388001-6a925a00-78fc-11eb-8a7e-4f7141c8af32.png)
 
-Here's the link to my second planning mock-up: [Mock-Up 2]
 
 ## Features 
 
@@ -62,12 +65,12 @@ Contains the cards that are then matched up by the player.
 
 ## Existing Features 
 
-- The "Start" button changes colour when hovering over it. This transition goes both ways, meaning it reverses the effect when the mouse is moved off of it. The mouse also becomes a pointer, to indicate that the button can be clicked.
-- A timer that begins counting up upon clicking the "start" button, coupled with a click-counter that tracks each time the user clicks a card.
-- The 12 cards can all be clicked, causing a flip animation. 
-- When two cards don't match, they are flipped back over. 
-- When two cards match, they stay face-up to indicate that the pair have been matched.
-- The socials change colour when hovered over, coupling as links to Twitter, Facebook and Instagram.
+* The "Start" button changes colour when hovering over it. This transition goes both ways, meaning it reverses the effect when the mouse is moved off of it. The mouse also becomes a pointer, to indicate that the button can be clicked.
+* A timer that begins counting up upon clicking the "start" button, coupled with a click-counter that tracks each time the user clicks a card.
+* The 12 cards can all be clicked, causing a flip animation. 
+* When two cards don't match, they are flipped back over. 
+* When two cards match, they stay face-up to indicate that the pair have been matched.
+* The socials change colour when hovered over, coupling as links to Twitter, Facebook and Instagram.
 
 ## Features Left to Implement
 
