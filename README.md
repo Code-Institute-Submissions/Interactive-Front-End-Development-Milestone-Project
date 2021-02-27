@@ -136,13 +136,23 @@ Overall, it was very difficult for me as Javascript has been alluding me constan
     3. Confirm that when passing the width threshold (by changing device etc), remove the words and leave just the icons.
     4. Confirm that when the words have been hidden, the icons have increased in size.
  
-#### Logical Testing for The Newsletter: 
+#### Logical Testing The Game
 
+If the user clicks the start button, begin the game.
 
+If the user clicks a card, flip the card.
 
-#### Logical Testing for The Donation Form: 
+If the user clicks the same card again, flip it back.
 
+If the user clicks two different cards, check for match.
 
+After the second card has been selected, lock the board.
+
+If the two cards clicked do not match, flip the cards back.
+
+if the two cards clicked match, keep them face up.
+
+If the user finds all matching pairs, trigger modal pop up to congratulate the player.
 
 #### Further Testing 
 
@@ -150,27 +160,30 @@ Overall, it was very difficult for me as Javascript has been alluding me constan
 
 ## Deployment 
 
-This project has been deployed via [GitHub Pages](https://github.com/KaganHuseyin/User-Centric-Front-End-Development-Milestone-Proeject).
+This project has been deployed via .
 
 1. Log into GitHub.
-2. Select KaganHuseyin/User-Centric-Front-End-Development-Milestone-Project.
+2. Select KaganHuseyin/.
 3. Select settings.
 4. Scroll down the page and locate GitHub Pages.
 5. Change the source to the master branch.
 6. Once the page refreshes, the website has been deployed.
-7. From here, go back to the repository and select "Environment."
+7. From here, go back to the repository and select ""
 8. Select view deployment and the website will open up in a new tab.
 
 ## Credits 
 
+Links to Youtube videos that inspired me and helped me understand the logic behind the game.
 
+https://www.youtube.com/watch?v=tjyDOHzKN0w&t=452s
+
+https://www.youtube.com/watch?v=3uuQ3g92oPQ&t=918s
 
 ## Media Used: 
 
-Below are the links to the websites that I obtained all images from.  
+The backface of the cards was the Code Institute Logo.
 
-
-https://www.nytimes.com/2020/01/13/science/air-pollution-fires-genes.html?smid=tw-nytimesworld&smtyp=cur 
+The front faces of the cards were drawn by me.
 
 ## Acknowledgements 
 
