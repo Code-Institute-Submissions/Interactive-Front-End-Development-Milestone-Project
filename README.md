@@ -14,12 +14,12 @@ The game is directed at any age group, as a simple memory matching game can be p
 
 As a new visitor to the website...
 
-1. I want a basic understanding of what the game is (the title). 
-2. I want to be able to see a clear indicator as to how I start the game.
+- I want a basic understanding of what the game is (the title). 
+- I want to be able to see a clear indicator as to how I start the game.
 
 As a returning visitor to the website...
 
-1. I want to be able to play the game and have the same, bug-free experience each time.
+- I want to be able to play the game and have the same, bug-free experience each time.
 
 ### The viewer would be visiting my site if they are: 
 
