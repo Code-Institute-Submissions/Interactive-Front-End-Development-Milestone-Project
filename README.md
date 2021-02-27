@@ -113,9 +113,9 @@ iii. Upon click, hide the button and the game field should appear.
   2. Check that the font size does not change to maintain readability.
 
 2. The Timer & Click Counter
-  i. Confirm that when resizing, the text does not breach their respective containers.
- ii. Make sure that the timer has begun, starting from 0.
-iii. Confirm that the click counter only increments when a card is clicked.
+  1. Confirm that when resizing, the text does not breach their respective containers.
+  2. Make sure that the timer has begun, starting from 0.
+  3. Confirm that the click counter only increments when a card is clicked.
  
 1. The Game Field
   i. Check that when resizing the page, the cards do not breach the game field.
