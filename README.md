@@ -38,6 +38,8 @@ Here are the links to my Wireframes:
 
 As seen in the Wireframes, I followed my original format fairly closely. I did change the position of the header, timer and click-counter. I tried to follow this Wireframe as it allowed me to stop me from trailing off and wasting time by having to design the website on-the-go. In my Wireframes for mobile and tablet, I had 1 less row of cards as I was unsure if it would fit properly. However, that would've been difficult to achieve. Even so, I was able to make the cards fit properly without any problems. 
 
+I didn't create a wireframe for the pop-up modal because I did not anticipate needing one.
+
 ## Features 
 
 ### Universal Website Features 
@@ -62,7 +64,11 @@ There is a timer and click counter. The timer starts when the user clicks "start
 
 #### Game Field: 
  
-Contains the cards that are then matched up by the player.
+Contains the cards that are then matched up by the player
+
+#### Congratulations Pop-Up:
+
+Contains a congratulations message, followed by the time taken and number of clicks used to complete the game.
 
 ## Existing Features 
 
@@ -71,11 +77,12 @@ Contains the cards that are then matched up by the player.
 * The 12 cards can all be clicked, causing a flip animation. 
 * When two cards don't match, they are flipped back over. 
 * When two cards match, they stay face-up to indicate that the pair have been matched.
+* When all cards are matched, displays a pop-up modal that tells the user they have completed the game, followed by the time and number of clicks taken.
 * The socials change colour when hovered over, coupling as links to Twitter, Facebook and Instagram.
 
 ## Features Left to Implement
 
-
+I don't really think the page needs any other features. It gives the user the intended experience, albeit it all one page.
 
 ## Technologies Used 
 
@@ -121,12 +128,18 @@ Overall, it was very difficult for me as Javascript has been alluding me constan
     2. Make sure that the timer has begun, starting from 0.
     3. Confirm that the click counter only increments when a card is clicked.
  
-1. The Game Field
+3. The Game Field
     1. Check that when resizing the page, the cards do not breach the game field.
     2. Check that the cards maintain their margin despite a change in device.
     3. Confirm that the cards shape changes as the screen is resized or if on another device.
     4. Confirm that the cards can still be clicked when on another device without any difficulty due to resizing.
     5. Make sure the images resize and do not breach the card containers. 
+
+4. The Pop-Up Modal
+    1. Check that when resizing the page, the modal width and text resizes correctly.
+    2. Upon hovering over the "Plage Again" button, it should change colour.
+    3. If the mouse is moved away from the button, it should revert to it's original colour slowly.
+    4. Check that the "Play Again" button refreshes the page, sending the user back to the original button screen.
 
 #### Footer:
 
@@ -156,7 +169,7 @@ If the two cards clicked do not match, flip the cards back.
 
 if the two cards clicked match, keep them face up.
 
-If the user finds all matching pairs, trigger modal pop up to congratulate the player.
+If the user finds all matching pairs, trigger modal pop up to congratulate the player, stating time taken and number of clicks used.
 
 #### Further Testing 
 
