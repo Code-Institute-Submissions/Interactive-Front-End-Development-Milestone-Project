@@ -36,6 +36,7 @@ Here are the links to my Wireframes:
 * [Mobile View Wireframe](https://user-images.githubusercontent.com/61510983/109387997-66fed300-78fc-11eb-9939-de3231009c3f.png)
 * [Tablet View Wireframe](https://user-images.githubusercontent.com/61510983/109388001-6a925a00-78fc-11eb-8a7e-4f7141c8af32.png)
 
+As seen in the Wireframes, I followed my original format fairly closely. I did change the position of the header, timer and click-counter. I tried to follow this Wireframe as it allowed me to stop me from trailing off and wasting time by having to design the website on-the-go. In my Wireframes for mobile and tablet, I had 1 less row of cards as I was unsure if it would fit properly. However, that would've been difficult to achieve. Even so, I was able to make the cards fit properly without any problems. 
 
 ## Features 
 
