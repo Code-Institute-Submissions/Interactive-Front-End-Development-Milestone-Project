@@ -3,7 +3,7 @@
 
 ## The Matching Game. 
 
-This project is a simple matching game that consists of 6 pairs of cards to match. 
+This project is a simple matching game that consists of 6 pairs of cards to match, including a timer and count clicker to track the players progress throughout the duration of their stay.
 
 ## UX 
 
@@ -22,7 +22,7 @@ As a returning visitor to the website...
 
 ### The viewer would be visiting my site if they are: 
 
-Looking to play a simple, memory matching game.
+Looking to play a simple, memory matching game. The website does not feature any other games.
 
 ### The website can help to achieve that because: 
 
