@@ -109,8 +109,8 @@ iii. Upon click, hide the button and the game field should appear.
 #### Body (When The Game Has Started):
  
 1. How to Play
-  i. Check that when resizing the page, the text does not overlap the parent container.
- ii. Check that the font size does not change to maintain readability.
+  1. Check that when resizing the page, the text does not overlap the parent container.
+  2. Check that the font size does not change to maintain readability.
 
 2. The Timer & Click Counter
   i. Confirm that when resizing, the text does not breach their respective containers.
