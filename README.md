@@ -14,7 +14,7 @@ The game is directed at early users of tablets, PCs and online games. It's very 
 
 As a new visitor to the website...
 
-- I want a simple intrusive game to curb boredom.
+- I want a simple intuitive game to curb boredom.
 - I want playing the game to be intuitive, requiring little explanation. 
 
 As a returning visitor to the website...
