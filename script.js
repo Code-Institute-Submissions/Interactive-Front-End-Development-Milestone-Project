@@ -53,3 +53,47 @@ this.classList.toggle("flip");
     clickCounter.innerText = "CLICK COUNTER: "+clicks;
   }
 }
+
+// Check for match function
+function check (){
+
+  // If the list length is 2, get src and cimpare the 2 lists (cards)
+  if(list.length == 2) {
+   if(getSrc(list[0]) == getSrc(list[1])){
+
+      // Pairs matched counter
+      winCounter++;
+      pairsFound.innerText = "PAIRS FOUND: "+winCounter;
+      list[0].onclick = list[1].onclick = null;  
+   }
+   else{
+
+      // Check that both cards aren't the same
+      const firstCard = list[0],
+            secondCard = list[1];
+      setTimeout(() => {
+        firstCard.onclick(null, true);
+        secondCard.onclick(null, true);
+      }, 700);
+
+      // Lock board if two cards aren't the same
+      setTimeout(() => lockBoard = false, 800);
+      lockBoard = true;
+   }
+   list[0].classList.remove("inlist");
+   list[1].classList.remove("inlist");
+   list = [];
+  }
+  if(winCounter === cards.length / 2){
+
+    // Toggle Modal
+    modalPopUp.classList.toggle("hidden");
+
+    // Stop timer
+    timerActive = false;
+
+    // Time and Clicks for Modal
+    document.getElementById("completed-time").textContent = "Time Taken: "+timer;
+    document.getElementById("completed-clicks").textContent = `Number of Clicks: ${clicks + 1}`;
+  }
+}
