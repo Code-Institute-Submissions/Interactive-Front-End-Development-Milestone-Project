@@ -15,3 +15,13 @@ let lockBoard = false;
 let list = [];
 let winCounter = 0
 
+let matchedCard = document.getElementsByClassName("match");
+
+// Shuffle function
+function shuffle(){
+
+  cards.forEach(card =>{
+    let randomPos = Math.floor(Math.random() * 12)
+    card.style.order = randomPos;
+  })
+}
