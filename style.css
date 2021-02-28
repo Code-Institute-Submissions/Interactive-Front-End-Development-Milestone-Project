@@ -144,3 +144,45 @@ header{
     backface-visibility: hidden;
     background-color: rgb(255, 255, 255);
 }
+
+/* Anmimations */
+
+.card:active{
+    transform: scale(.97);
+    transition: .3s;
+}
+
+.card.flip{
+    transform: rotateY(180deg);
+}
+
+/* Socials Bar */
+
+.socials-bar{
+    height: 20%;
+    padding: 25px;
+    background-color: rgb(151, 151, 151);
+    text-align: center;
+}
+
+.fab{
+    font-size: 30px;
+    transition: 0.4s;
+}
+
+.icon{
+    display: none;
+}
+
+.divider{
+    display: none;
+}
+
+a{
+    padding: 10px;
+    color: black;
+}
+
+a:hover{
+    color: rgb(202, 57, 0);
+}
