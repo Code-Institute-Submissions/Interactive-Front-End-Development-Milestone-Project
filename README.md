@@ -173,7 +173,11 @@ If the user finds all matching pairs, trigger modal pop up to congratulate the p
 
 #### Further Testing 
 
-I had my family and friends do some testing on it simply by playing the game. I had 3 testers. I encountered a couple bugs the first time around, which saw that flipping over cards in quick succession broke the game and left cards facing up that weren't matched. I implemented the fix for this and after that had been unable to find anymore bugs. During my testing, I would often spam click things to see what would break and what wouldn't. Upon further testing, I discovered a bug where flipping the same card BACK over meant that the classes given would change and essentially break. I was unable to figure out a fix in time for this bug, however I will be working on trying to patch it.
+24/02/21
+I had my family and friends do some testing on it simply by playing the game. I had 3 testers. I encountered a couple bugs the first time around, which saw that flipping over cards in quick succession broke the game and left cards facing up that weren't matched. I implemented the fix for this and after that had been unable to find anymore bugs.
+
+28/02/21
+During my testing, I would often spam click things to see what would break and what wouldn't. Upon further testing, I discovered a bug where flipping the same card BACK over meant that the classes given would change and essentially break. I was unable to figure out a fix in time for this bug, however I will be working on trying to patch it. 
 
 ## Deployment 
 
