@@ -25,3 +25,31 @@ function shuffle(){
     card.style.order = randomPos;
   })
 }
+
+// Flip card function
+function flipCard(e, autoflip = false){
+
+// Lock board gives flip class
+if(lockBoard && !autoflip) return;
+this.classList.toggle("flip");
+
+  // Remove in list if the card is flipped back over
+  if(!autoflip){
+    let inlist = false;
+
+    // Sets variable "inlist" to 0 in case "this" DOM element is in class "inlist"
+    for(let i = 0; i < this.classList.length; i ++){
+      if(this.classList[i] == "inlist")
+        inlist = true;
+    }
+    
+    // Add a click
+    if(!inlist){
+      this.classList.add("inlist");
+      list.push(this);
+      check();
+    }
+    clicks++;
+    clickCounter.innerText = "CLICK COUNTER: "+clicks;
+  }
+}
