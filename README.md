@@ -23,7 +23,7 @@ As a returning visitor to the website...
 
 ### The viewer would be visiting my site if they are: 
 
-Looking to play a simple, memory matching game. The website does not feature any other games.
+Looking to play a simple, memory matching game and looking to have a seemless, glitchless experience. The website does not feature any other games. 
 
 ### The website can help to achieve that because: 
 
