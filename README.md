@@ -2,7 +2,7 @@
 # Interactive-Front-End-Development-Milestone-Project 
 
 
-## The Matching Game. 
+## Memory Matching Game. 
 
 This project is a simple matching game that consists of 6 pairs of cards to match, including a timer and count clicker to track the players progress throughout the duration of their stay.
 
