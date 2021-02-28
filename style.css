@@ -239,3 +239,38 @@ a:hover{
     background-color: rgb(214, 62, 2);
     border: 3px solid rgb(214, 62, 2);
 }
+
+/* Media Queries */
+
+@media all and (min-width: 450px){
+    .socials-bar{
+        height: 20%;
+        padding: 25px;
+        background-color: rgb(151, 151, 151);
+        text-align: center;
+    }
+
+    .fab{
+        font-size: 16px;
+    }
+    
+    .icon{
+        display: inline-block;
+    }
+    
+    .divider{
+        display: inline-block;
+    }    
+}
+
+@media all and (max-width: 450px){
+    .header{
+        text-align: center;
+        font-size: 30px;
+        text-decoration: underline;
+    }
+
+    #congrats-container{
+        height: 40%;
+    }
+}
