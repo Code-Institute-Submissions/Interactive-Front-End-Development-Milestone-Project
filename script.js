@@ -13,17 +13,15 @@ let timerActive = false;
 let clicks = 0;
 let lockBoard = false;
 let list = [];
-let winCounter = 0
-
-let matchedCard = document.getElementsByClassName("match");
+let winCounter = 0;
 
 // Shuffle function
 function shuffle(){
 
   cards.forEach(card =>{
-    let randomPos = Math.floor(Math.random() * 12)
+    let randomPos = Math.floor(Math.random() * 12);
     card.style.order = randomPos;
-  })
+  });
 }
 
 // Flip card function
@@ -111,11 +109,6 @@ setInterval(() =>{
     timerLabel.innerText = "TIME: "+timer;
   }
 }, 1000);
-
-// Reload Page Button
-function reload() {
-  reload = location.reload();
-}
 
 cards.forEach (card => card.onclick = flipCard);
 
