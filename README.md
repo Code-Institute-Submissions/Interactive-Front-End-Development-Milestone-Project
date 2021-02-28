@@ -184,7 +184,7 @@ I had my family and friends do some testing on it simply by playing the game. I 
 During my testing, I would often spam click things to see what would break and what wouldn't. Upon further testing, I discovered a bug where flipping the same card BACK over meant that the classes given would change and essentially break. I was unable to figure out a fix in time for this bug, however I will be working on trying to patch it. 
 
 28/02/21 LOG 2
-Tested on an android and an iOS device. iOS devices weren't seeing the front facing images. To fix this, I was recommended to use 
+Tested on an android and an iOS device. iOS devices weren't seeing the front facing images. To fix this, I was recommended to use Autoprefixer. This solved my problem. I also noticed that the Javascript Flower image would flip when the card was flipped. I have not been able to figure out a fix for this at this moment in time.
 
 ## Deployment 
 
