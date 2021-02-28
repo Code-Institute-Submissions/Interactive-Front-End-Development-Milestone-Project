@@ -12,6 +12,12 @@ body{
     background-color: rgb(219, 219, 219);
 }
 
+/* Hidden Object */
+
+.hidden{
+    display: none !important;
+}
+
 /* Wrappers  */
 
 .game-wrapper{
@@ -69,4 +75,27 @@ header{
     padding: 36vh 0px 36vh 0px;
     display: flex;
     justify-content: center;
+}
+
+/* How To Play, Time & Click Counter */
+
+.how-to-play{
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgb(197, 197, 197);
+}
+
+#time{
+    border-radius: 5px;
+    background-color: rgb(151, 151, 151);
+}
+
+#pairs-found{
+    border-radius: 5px;
+    background-color: rgb(151, 151, 151);
+}
+
+#click-counter{
+    border-radius: 5px;
+    background-color: rgb(151, 151, 151);
 }
