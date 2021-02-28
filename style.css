@@ -14,13 +14,13 @@ body{
 
 /* Wrappers  */
 
-.wrapper{
+.game-wrapper{
     display: flex;
-    flex-flow: row wrap;
     text-align: center;
+    background-color: rgb(219, 219, 219);
 }
 
-.wrapper > *{
+.game-wrapper > *{
     padding: 10px;
     margin: 10px;
     flex: 1 100%;
