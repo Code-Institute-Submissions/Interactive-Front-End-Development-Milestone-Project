@@ -116,3 +116,21 @@ setInterval(() =>{
 function reload() {
   reload = location.reload();
 }
+
+cards.forEach (card => card.onclick = flipCard);
+
+// Event Listener for starting the game and timer 
+startButton.addEventListener("click", () =>{
+
+  // Toggle hidden class for start button and it's containers
+  container.classList.toggle("hidden");
+  startButton.classList.toggle("hidden");
+  startButtonContainer.classList.toggle("hidden");
+
+  // Invoke shuffle
+  shuffle();
+
+  // Begin timer, board starts unlocked
+  timerActive = true;
+  lockBoard = false;
+});
