@@ -173,19 +173,19 @@ If the user finds all matching pairs, trigger modal pop up to congratulate the p
 
 #### Further Testing 
 
-
+I had my family and friends do some testing on it simply by playing the game. I had 3 testers. I encountered a couple bugs the first time around, which saw that flipping over cards in quick succession broke the game and left cards facing up that weren't matched. I implemented the fix for this and after that had been unable to find anymore bugs. During my testing, I would often spam click things to see what would break and what wouldn't. Upon further testing, I discovered a bug where flipping the same card BACK over meant that the classes given would change and essentially break. I was unable to figure out a fix in time for this bug, however I will be working on trying to patch it.
 
 ## Deployment 
 
-This project has been deployed via .
+This project has been deployed via Github Pages.
 
 1. Log into GitHub.
-2. Select KaganHuseyin/.
+2. Select KaganHuseyin/Interactive-Front-End-Development-Milestone-Project.
 3. Select settings.
 4. Scroll down the page and locate GitHub Pages.
 5. Change the source to the master branch.
 6. Once the page refreshes, the website has been deployed.
-7. From here, go back to the repository and select ""
+7. From here, go back to the repository and select "Enivorments".
 8. Select view deployment and the website will open up in a new tab.
 
 ## Credits 
@@ -204,4 +204,4 @@ The front faces of the cards were drawn by me.
 
 ## Acknowledgements 
 
-
+Thank you to my friends and family for testing my website a few times. It helped me find a couple bugs that I was able to fix and a bug I was unable to fix.
