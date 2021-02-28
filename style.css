@@ -25,3 +25,24 @@ body{
     margin: 10px;
     flex: 1 100%;
 }
+
+/* Header */
+
+header{
+    height: 20%;
+    padding: 25px;
+    background-color: rgb(151, 151, 151);
+}
+
+.header{
+    text-align: center;
+    font-size: 45px;
+    color: white;
+}
+
+#letter-o{
+    display: inline-block;
+    text-align: center;
+    font-size: 45px;
+    color: rgb(214, 62, 2);
+}
