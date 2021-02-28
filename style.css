@@ -46,3 +46,27 @@ header{
     font-size: 45px;
     color: rgb(214, 62, 2);
 }
+
+/* Start */
+
+#start-button{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    border: 3px solid rgb(151, 151, 151);
+    transition: 0.8s;
+}
+
+#start-button:hover{
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: rgb(214, 62, 2);
+    border: 3px solid rgb(214, 62, 2);
+}
+
+#start-button-container{
+    padding: 36vh 0px 36vh 0px;
+    display: flex;
+    justify-content: center;
+}
