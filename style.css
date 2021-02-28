@@ -129,3 +129,18 @@ header{
     cursor: pointer;
     background-color: rgb(255, 255, 255);
 }
+
+.front{
+    width: 95%;
+    padding: 33px 0px 0px 5px;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+}
+
+.back{
+    width: 95%;
+    padding: 33px 0px 0px 5px;
+    position: absolute;
+    backface-visibility: hidden;
+    background-color: rgb(255, 255, 255);
+}
