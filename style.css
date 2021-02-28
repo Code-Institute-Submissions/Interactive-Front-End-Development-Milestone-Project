@@ -270,6 +270,10 @@ a:hover{
         text-decoration: underline;
     }
 
+    #letter-o{
+    font-size: 45px;
+    }
+
     #congrats-container{
         height: 40%;
     }
