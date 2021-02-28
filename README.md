@@ -4,7 +4,7 @@
 
 ## Memory Matching Game 
 
-This project is a simple matching game that consists of 6 pairs of cards to match, including a timer and count clicker to track the players progress throughout the duration their visit to the website.
+This project is a simple matching game that consists of 6 pairs of cards to match, including a timer and count clicker to track the players progress throughout the duration of their visit to the website.
 
 ## UX 
 
