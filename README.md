@@ -183,6 +183,9 @@ I had my family and friends do some testing on it simply by playing the game. I 
 28/02/21
 During my testing, I would often spam click things to see what would break and what wouldn't. Upon further testing, I discovered a bug where flipping the same card BACK over meant that the classes given would change and essentially break. I was unable to figure out a fix in time for this bug, however I will be working on trying to patch it. 
 
+28/02/21 LOG 2
+Tested on an android and an iOS device. iOS devices weren't seeing the front facing images. To fix this, I was recommended to use 
+
 ## Deployment 
 
 This project has been deployed via Github Pages.
@@ -204,6 +207,10 @@ https://www.youtube.com/watch?v=tjyDOHzKN0w&t=452s
 
 https://www.youtube.com/watch?v=3uuQ3g92oPQ&t=918s
 
+Link to Autoprefixer CSS Online. Used to fix my CSS for iOS devices.
+
+https://autoprefixer.github.io/
+
 ## Media Used: 
 
 The backface of the cards was the Code Institute Logo.
@@ -212,4 +219,4 @@ The front faces of the cards were drawn by me.
 
 ## Acknowledgments 
 
-Thank you to my friends and family for testing my website a few times. It helped me find a couple bugs that I was able to fix and a bug I was unable to fix.
+Thank you to my friends and family for testing my website a few times. It helped me find a couple bugs that I was able to fix and a bug I was unable to fix. Thank you to Jim_Lynx on Slack for helping me solve my image problem from 28/02/21 LOG 2! 
