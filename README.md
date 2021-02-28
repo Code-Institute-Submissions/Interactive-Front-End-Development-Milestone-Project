@@ -64,11 +64,11 @@ There is a timer and click counter. The timer starts when the user clicks "start
 
 #### Game Field: 
  
-Contains the cards that are then matched up by the player
+Contains the cards that are then matched up by the player.
 
 #### Congratulations Pop-Up:
 
-Contains a congratulations message, followed by the time taken and number of clicks used to complete the game.
+Contains a "congratulations" message, followed by the time taken and number of clicks used to complete the game.
 
 ## Existing Features 
 
@@ -96,7 +96,7 @@ This website uses Font Awesome to input 3 social website icons. https://kit.font
 
 ## Testing 
 
-The website is simple and clean, meaning the HTML / CSS for it was fairly simple, too. I used flexbox once again to help position divs so that if a user was on mobile, it would squeeze it together and not cause any sort of misshaping. I ran into the most problems when it came to the Javascript. This project was very difficult for me, as over the two weeks I spent working on it, I spent most of it trying a bunch of different methods for my Javascript. I didn't realise there were so many different ways to do the same thing. The hardest part within my Javascript was definetely my check function. It required I make two lists for the two different cards clicked, a timeout for if the cards didn't match to prevent the user from spamming the cards and figuring out how to use the images to detect a match. 
+The website is simple and clean, meaning the HTML / CSS for it was fairly simple, too. I used flexbox once again to help position divs so that if a user was on mobile, it would squeeze it together and not cause any sort of misshaping. I ran into the most problems when it came to the Javascript. This project was very difficult for me, as over the two weeks I spent working on it, I spent most of it trying a bunch of different methods for my Javascript. I didn't realise there were so many different ways to do the same thing. The hardest part within my Javascript was definitely my check function. It required I make two lists for the two different cards clicked, a timeout for if the cards didn't match to prevent the user from spamming the cards and figuring out how to use the images to detect a match. 
 
 Overall, it was very difficult for me as Javascript has been alluding me constantly. I watched some Youtube videos to help understand the Javascript and to really understand how to make those logical paths for my code.
 
@@ -137,7 +137,7 @@ Overall, it was very difficult for me as Javascript has been alluding me constan
 
 4. The Pop-Up Modal
     1. Check that when resizing the page, the modal width and text resizes correctly.
-    2. Upon hovering over the "Plage Again" button, it should change colour.
+    2. Upon hovering over the "Play Again" button, it should change colour.
     3. If the mouse is moved away from the button, it should revert to it's original colour slowly.
     4. Check that the "Play Again" button refreshes the page, sending the user back to the original button screen.
 
@@ -189,7 +189,7 @@ This project has been deployed via Github Pages.
 4. Scroll down the page and locate GitHub Pages.
 5. Change the source to the master branch.
 6. Once the page refreshes, the website has been deployed.
-7. From here, go back to the repository and select "Enivorments".
+7. From here, go back to the repository and select "Environments".
 8. Select view deployment and the website will open up in a new tab.
 
 ## Credits 
