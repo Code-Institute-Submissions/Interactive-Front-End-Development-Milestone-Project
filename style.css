@@ -1,8 +1,16 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 /* Global Styling */
 
 *{
     padding: 0;
     margin: 0;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
@@ -21,6 +29,8 @@ body{
 /* Wrappers  */
 
 .game-wrapper{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     text-align: center;
     background-color: rgb(219, 219, 219);
@@ -29,6 +39,8 @@ body{
 .game-wrapper > *{
     padding: 10px;
     margin: 10px;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 100%;
     flex: 1 100%;
 }
 
@@ -61,6 +73,8 @@ header{
     border-radius: 5px;
     color: black;
     border: 3px solid rgb(151, 151, 151);
+    -webkit-transition: 0.8s;
+    -o-transition: 0.8s;
     transition: 0.8s;
 }
 
@@ -73,7 +87,11 @@ header{
 
 #start-button-container{
     padding: 36vh 0px 36vh 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
 }
 
@@ -103,15 +121,23 @@ header{
 /* Game Field */
 
 .container{ 
+    display: -webkit-box; 
+    display: -ms-flexbox; 
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
 }
 
 .game-field{
     height: 650px;
     width: 650px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    -webkit-perspective: 2000px;
     perspective: 2000px;
 }
 
@@ -122,8 +148,15 @@ header{
     height: calc(33.33% - 10px);
     margin: 5px;
     border-radius: 5px;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
     transform: scale(1);
+    -webkit-transition: -webkit-transform 0.2s;
+    transition: -webkit-transform 0.2s;
+    -o-transition: transform 0.2s;
     transition: transform 0.2s;
+    transition: transform 0.2s, -webkit-transform 0.2s;
+    -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
     border: 3px solid rgb(122, 122, 122);
     cursor: pointer;
@@ -133,7 +166,7 @@ header{
 .front{
     width: 95%;
     padding: 33px 0px 0px 5px;
-    position: absolute;
+    position: absolute; 
     background-color: rgb(255, 255, 255);
 }
 
@@ -141,6 +174,7 @@ header{
     width: 95%;
     padding: 33px 0px 0px 5px;
     position: absolute;
+    -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     background-color: rgb(255, 255, 255);
 }
@@ -148,11 +182,16 @@ header{
 /* Anmimations */
 
 .card:active{
+    -webkit-transform: scale(.97);
+    -ms-transform: scale(.97);
     transform: scale(.97);
+    -webkit-transition: .3s;
+    -o-transition: .3s;
     transition: .3s;
 }
 
 .card.flip{
+    -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
 }
 
@@ -167,6 +206,8 @@ header{
 
 .fab{
     font-size: 30px;
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
     transition: 0.4s;
 }
 
@@ -206,7 +247,11 @@ a:hover{
     height: 35%;
     width: 80%;
     background-color: rgba(151, 151, 151, 0.9);
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     text-align: center;
 }
@@ -230,6 +275,8 @@ a:hover{
     border-radius: 5px;
     color: black;
     border: 3px solid rgb(151, 151, 151);
+    -webkit-transition: 0.8s;
+    -o-transition: 0.8s;
     transition: 0.8s;
 }
 
@@ -271,7 +318,7 @@ a:hover{
     }
 
     #letter-o{
-    font-size: 30px;
+        font-size: 30px;
     }
 
     #congrats-container{
