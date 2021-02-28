@@ -2,9 +2,9 @@
 # Interactive-Front-End-Development-Milestone-Project 
 
 
-## Memory Matching Game. 
+## Memory Matching Game 
 
-This project is a simple matching game that consists of 6 pairs of cards to match, including a timer and count clicker to track the players progress throughout the duration of their stay.
+This project is a simple matching game that consists of 6 pairs of cards to match, including a timer and count clicker to track the players progress throughout the duration their visit to the website.
 
 ## UX 
 
@@ -14,8 +14,8 @@ The game is directed at any age group, as a simple memory matching game can be p
 
 As a new visitor to the website...
 
-- I want a basic understanding of what the game is (the title). 
-- I want to be able to see a clear indicator as to how I start the game.
+- I want a simple intrusive game to curb boredom.
+- I want playing the game to be intuitive, requiring little explanation. 
 
 As a returning visitor to the website...
 
@@ -27,7 +27,7 @@ Looking to play a simple, memory matching game. The website does not feature any
 
 ### The website can help to achieve that because: 
 
-It is a simple memory matching game. It should be clear and concise, being easy to understand and play to help the viewer breeze through the page without any problems.
+It is a simple memory matching game. It should be clear and concise, intuitive to pick up and play being easy to understand and play to help the viewer breeze through the page without any problems.
 
 ### Wireframes / Mock-ups Used: 
 
@@ -83,6 +83,10 @@ Contains a "congratulations" message, followed by the time taken and number of c
 ## Features Left to Implement
 
 I don't really think the page needs any other features. It gives the user the intended experience, albeit it all one page.
+
+## Features I Would Have Liked to Have Added
+
+- Possibly being able to edit the number of cards on the game field at a time. I think having more cards would make it a more challenging experience after the user has completed the first set of cards. 
 
 ## Technologies Used 
 
@@ -206,6 +210,6 @@ The backface of the cards was the Code Institute Logo.
 
 The front faces of the cards were drawn by me.
 
-## Acknowledgements 
+## Acknowledgments 
 
 Thank you to my friends and family for testing my website a few times. It helped me find a couple bugs that I was able to fix and a bug I was unable to fix.
