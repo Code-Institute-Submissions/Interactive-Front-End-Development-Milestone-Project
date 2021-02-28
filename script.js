@@ -97,3 +97,22 @@ function check (){
     document.getElementById("completed-clicks").textContent = `Number of Clicks: ${clicks + 1}`;
   }
 }
+
+// Image src Match Check Function
+function getSrc (card){
+  const img = card.getElementsByClassName("front")[0];
+  return img.src;
+}
+
+// Timer
+setInterval(() =>{
+  if(timerActive){
+    timer++;
+    timerLabel.innerText = "TIME: "+timer;
+  }
+}, 1000);
+
+// Reload Page Button
+function reload() {
+  reload = location.reload();
+}
