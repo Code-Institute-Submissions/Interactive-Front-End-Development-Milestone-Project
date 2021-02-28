@@ -8,7 +8,7 @@ This project is a simple matching game that consists of 6 pairs of cards to matc
 
 ## UX 
 
-The game is directed at any age group, as a simple memory matching game can be played by most ages.
+The game is directed at early users of tablets, PCs and online games. It's very simple and might not attract the attention of teens or adults.
 
 ### User Stories
 
